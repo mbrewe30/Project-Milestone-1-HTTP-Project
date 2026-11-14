@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz </title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <h1> HTTP Quiz </h1>
+    </header>
+     <nav>
+        <a href="../index.html">Home</a>
+        <a href="../history of http/history.html">History</a>
+        <a href="../how it works/how-it-works.html">How HTTP Works</a>
+        <a href="../key concepts/keyconcepts.html">Key Concepts</a>
+        <a href="../references/references.html">References</a>
+        <a href="../about/about.html">About me</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+<h2 id="timer">Time Remaining: 10:00</h2>
+
+
+<form id="selfassessment">
+<h1> Self Assessment Quiz </h1>
+<p> Lets see how much you know! </p>
+
+<div class="question">
+
+<h3> Question 1: What does HTTP stand for? </h3>
+<h5> Type answer in lowercase </h5>
+<input type="text" id="q1" name="q1">
+
+</div>
+
+<div class="question">
+
+<h3> Question 2: What does a URL stand for? </h3>
+<h5> Type answer in lowercase </h5>
+<input type="text" id="q2" name="q2">
+
+</div>
+
+<div class="question">
+
+<h3> Question 3: Who was HTTP invented by? </h3>
+<input type="radio" id="q3a" name="q3" value="A"> Tim Berners-Lee <br>
+<input type="radio" id="q3b" name="q3" value="B"> Bill Gates <br>
+<input type="radio" id="q3c" name="q3" value="C"> Steve Jobs <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 4: What is a Quic?</h3>
+<input type="radio" id="q4a" name="q4" value="A"> A new protocol for URL connections <br>
+<input type="radio" id="q4b" name="q4" value="B"> A new programming language <br>
+<input type="radio" id="q4c" name="q4" value="C"> A way for faster and secure communication amongst the client and server <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 5: What is a Browser? </h3>
+<input type="radio" id="q5a" name="q5" value="A"> A program that allows users to access and display websites <br>
+<input type="radio" id="q5b" name="q5" value="B"> A type of memory file <br>
+<input type="radio" id="q5c" name="q5" value="C"> A type of server <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 6: Select all examples of browsers </h3>
+<input type="checkbox" id="q6a" name="q6" value="A"> Yahoo <br>
+<input type="checkbox" id="q6b" name="q6" value="B"> Mozilla Firefox <br>
+<input type="checkbox" id="q6c" name="q6" value="C"> Safari <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 7: What are Messages and Requests? </h3>
+<input type="radio" id="q7a" name="q7" value="A"> A program used to access and request information <br>
+<input type="radio" id="q7b" name="q7" value="B"> Information exchanged between a client and a server <br>
+<input type="radio" id="q7c" name="q7" value="C"> Files that store a user's browsing history <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 8: What is a Cookie? </h3>
+<input type="radio" id="q8a" name="q8" value="A"> A small piece of data stored on the user's computer by the web browser <br>
+<input type="radio" id="q8b" name="q8" value="B"> A type of memory file <br>
+<input type="radio" id="q8c" name="q8" value="C"> A term for any type of successful data <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 9: What HTTP status code represent successful requests? </h3>
+<input type="radio" id="q9a" name="q9" value="A"> 404 <br>
+<input type="radio" id="q9b" name="q9" value="B"> 200 <br>
+<input type="radio" id="q9c" name="q9" value="C"> 500 <br>
+
+</div>
+
+<div class="question">
+
+<h3> Question 10: What is a Search Engine? </h3>
+<input type="radio" id="q10a" name="q10" value="A"> A Website to look for cookies <br>
+<input type="radio" id="q10b" name="q10" value="B"> A program that allows users to search for information on the internet  <br>
+<input type="radio" id="q10c" name="q10" value="C"> A type of protocol <br>
+
+</div>
+
+<br>
+
+<button type="button" id="submitquiz"> Submit Quiz </button>
+<button type="button" id="restartquiz"> Restart </button>
+
+</form>
+
+<div id="results"></div>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>
