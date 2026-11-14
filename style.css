@@ -14,14 +14,14 @@ header {
 }
 nav{
     background-color: #3b434e;
-    padding: 10px;
+    padding: 24px;
     text-align: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 8px;
 }
 
 nav a:hover {
@@ -134,4 +134,44 @@ td img {
 
 .how-does-it-work {
    border:0px
+}
+
+/*-- quiz */
+.question {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #dcdee0;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+#results {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #dcdee0;
+    border-radius: 5px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+#timer {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#selfassessment {
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+
 }
